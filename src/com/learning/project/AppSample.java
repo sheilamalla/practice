@@ -9,12 +9,13 @@ public class AppSample {
 	
 	public static void main(String[] args) {
 		System.out.println("*********Banking Application**************");
+		System.out.println("select 1 if you are customer, 2 if you are Bank employee or 3 if you are bank admininstration");
 		System.out.println("1. Customer");
 		System.out.println("2. Bank Employee");
 		System.out.println("3. Bank Admin");
 		System.out.println("4. Exit");
 		
-		System.out.println("select 1 if you are customer, 2 if you are Bank employee or 3 if you are bank admininstration");
+		
 		String selection;
 		selection = scan.next();
 		RegisteredUserSample loggedInUser =null;
